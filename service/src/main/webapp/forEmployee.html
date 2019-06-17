@@ -117,7 +117,7 @@
 
         <!--附件添加-->
         <form id="fileForm" >
-            <div class="weui-cells__title">附件添加(仅支持.doc或.docx结尾格式文件)</div>
+            <div class="weui-cells__title">附件添加</div>
             <div class="weui-uploader__bd">
                 <ul class="weui-uploader__files" id="uploaderFiles">
                     <li style="margin-left: 5px;">
@@ -125,7 +125,7 @@
                     </li>
                 </ul>
                 <div class="weui-uploader__input-box">
-                    <input ref="uploaderInput" name="uploaderInput" class="weui-uploader__input" type="file" accept=".docx,.doc" @change="selectFile">
+                    <input ref="uploaderInput" name="uploaderInput" class="weui-uploader__input" type="file"  @change="selectFile">
                 </div>
             </div>
         </form>
